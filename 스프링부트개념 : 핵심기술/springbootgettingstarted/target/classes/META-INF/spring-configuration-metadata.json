@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "holoman",
+      "type": "me.whiteship.HolomanProperties",
+      "sourceType": "me.whiteship.HolomanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "holoman.how-long",
+      "type": "java.lang.Integer",
+      "sourceType": "me.whiteship.HolomanProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "holoman.name",
+      "type": "java.lang.String",
+      "sourceType": "me.whiteship.HolomanProperties"
+    }
+  ],
+  "hints": []
+}

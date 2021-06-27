@@ -1,0 +1,86 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        border-bottom: 1px solid gray;
+        padding-left: 20px;
+
+      }
+
+      footer {
+        border-top: 1px solid gray;
+        padding: 50px;
+        text-align: center;
+      }
+
+      .content {
+        display: flex;
+      }
+
+      .content nav {
+        border-right: 1px solid gray;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+
+
+      .content aside {
+        border-left: 1px solid gray;
+      }
+
+      nav,
+      aside {
+        flex-basis: 150px;
+        flex-shirink: 0;
+      }
+      main{
+        padding: 20px;
+      }
+      aside{
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>생활코딩</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </nav>
+        <main>
+          <p th:text="${hol.text}"></p>
+        </main>
+        <aside>
+          AD
+        </aside>
+      </section>
+      <footer>
+        <a href="https://naver.com">홈페이지</a>
+      </footer>
+    </div>
+
+  </body>
+
+  </html>
+  <!--십자가 형태의 레이아웃 구조를 보고
+홀리그레일 레이아웃 이라 함으로 특별한것 없고
+만들어 놓은 본 소스를 잘 보고, 머리속으로
+이미징을 하여 구조를 완벽하게 이해하고 있어야
+함이 마땅하다. -->

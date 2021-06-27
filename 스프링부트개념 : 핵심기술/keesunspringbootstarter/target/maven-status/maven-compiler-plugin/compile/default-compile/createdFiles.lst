@@ -1,0 +1,5 @@
+me\whiteship\Holoman.class
+me\whiteship\HolomanProperties.class
+me\whiteship\HolomanConfiguration.class
+META-INF\spring-autoconfigure-metadata.properties
+META-INF\spring-configuration-metadata.json
